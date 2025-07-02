@@ -45,7 +45,7 @@ const ParallaxBackground = () => {
         <div
           className="absolute inset-0 w-full h-screen -z-50 blur-md opacity-50"
           style={{
-            backgroundImage: "url('/assets/FloatingSanity.jpeg')",
+            backgroundImage: "url('assets/FloatingSanity.jpeg')",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "auto 100%",
@@ -56,7 +56,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="fixed top-0 left-0 w-screen h-screen pointer-events-none mix-blend-lighten opacity-30 blur-sm"
           style={{
-            backgroundImage: "url('/assets/glitches.png')",
+            backgroundImage: "url('assets/glitches.png')",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",

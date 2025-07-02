@@ -1,9 +1,9 @@
 {
   "name": "portfolio",
+  "homepage": "https://floatingsanity.github.io/3D-PORTFOLIO",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://floatingsanity.github.io/3D-PORTFOLIO",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
