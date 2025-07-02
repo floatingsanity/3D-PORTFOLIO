@@ -68,7 +68,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="fixed top-0 left-0 w-screen h-screen pointer-events-none mix-blend-screen opacity-20 blur-sm"
           style={{
-            backgroundImage: "url('/assets/glitches.png')",
+            backgroundImage: "url('assets/glitches.png')",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "cover",

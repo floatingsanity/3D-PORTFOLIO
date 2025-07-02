@@ -12,7 +12,7 @@ export const myProjects = [
     ],
     href: "https://www.figma.com/design/z4wQwFY7kZFsBdXxvdnSIa/HCDD-440-Prototype?node-id=231-345&t=FWDmms7qvPPBuOzZ-1", 
     logo: "",
-    image: "/assets/Ventures.jpeg", 
+    image: "assets/Ventures.jpeg", 
     tags: [
       { id: 1, name: "UX Design" },
       { id: 2, name: "Design Systems" },
@@ -35,7 +35,7 @@ export const myProjects = [
     ],
     href: "https://github.com/DavidOke02/coursescheduling_project", 
     logo: "",
-    image: "/assets/LMS.png",
+    image: "assets/LMS.png",
     tags: [
     { id: 1, name: "Java" },
     { id: 2, name: "Object-Oriented Design" },
@@ -58,7 +58,7 @@ export const myProjects = [
     ],
     href: "", 
     logo: "",
-    image: "/assets/projects/colorless.jpg", 
+    image: " assets/projects/colorless.jpg", 
     tags: [
     { id: 1, name: "Godot Engine" },
     { id: 2, name: "Game Design" },
@@ -75,17 +75,17 @@ export const mySocials = [
   {
     name: "Github",
     href: "https://github.com/floatingsanity",
-    icon: "/assets/gihub.png",
+    icon: "assets/gihub.png",
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/feda-almodhi/",
-    icon: "/assets/linkedin.png",
+    icon: "assets/linkedin.png",
   },
   {
     name: "Discord",
     href: "https://discord.com/users/floatingsanity",
-    icon: "/assets/discord.png",
+    icon: "assets/discord.png",
   },
 ];
 
