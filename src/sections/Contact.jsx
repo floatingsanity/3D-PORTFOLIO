@@ -71,7 +71,7 @@ const Contact = () => {
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="Feda Almodhi"
+              placeholder="Full Name"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}

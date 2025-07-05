@@ -70,7 +70,7 @@ const About = () => {
             className="absolute  blur-xxs inset-0 w-full h-full object-cover brightness-50"
         />
 
-         <div className="z-20 relative bg-black/40 backdrop-blur-sm p-4 rounded-xl mt-12 shadow-lg ring-1 ring-white/10 w-[500px] h-[125px] mx-auto">
+         <div className="z-20 relative bg-black/40 backdrop-blur-sm p-4 rounded-xl mt-12 shadow-lg ring-1 ring-white/10 w-full max-w-[90vw] md:max-w-[500px] h-[135px] mx-auto ">
             <h2 className="headtext mb-4">Core Skills</h2>
 
             {startFlipping && (
@@ -82,7 +82,7 @@ const About = () => {
             "Photoshop  Illustrator  Blender  Spline\n\n",
             "Database Design  Information Architecture  Front-End Integration  Documentation",
         ]}
-        className="subtext text-neutral-300 whitespace-pre-line"
+        className="subtext text-neutral-300 whitespace-pre-line " 
         interval={4000}
         useNeon={false} 
         />
@@ -94,7 +94,7 @@ const About = () => {
         <div className="grid-special-color grid-4 relative">
         <div className="z-10 w-[50%] z-20 relative bg-black/40 backdrop-blur-sm p-4 rounded-xl mt-12 shadow-lg ring-1 ring-white/10 ">
             <p className="subtext">
-        Based in The United States, and open to remote work worldwide
+        Based in The United States, and happily collaborating with clients around the globe.
             </p>
         </div>
 
@@ -107,7 +107,7 @@ const About = () => {
       <div className="grid-default-color grid-2 relative">
           <img
             src="assets/floating.jpeg"
-            className="absolute z-0 opacity-80 brightness-75 blur-xs object-cover w-full h-full max-w-[600px] md:max-w-[700px] lg:max-w-[800px] right-0 top-1/2 -translate-y-1/2 "
+            className="absolute z-0 opacity-80 brightness-75 blur-xs object-cover  scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
             alt="POV"
           />
           <div className="z-20 relative bg-black/40 backdrop-blur-sm p-4 rounded-xl mt-12 shadow-lg ring-1 ring-white/10">

@@ -7,7 +7,7 @@ const ProjectDetails = ({
   image,
   tags,
   href,
-  closeModel
+  closeModel,
 }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center pt-20 px-4 pb-4 backdrop-blur-sm overflow-y-auto">
@@ -43,19 +43,17 @@ const ProjectDetails = ({
             </p>
           ))}
 
-          <div className="flex flex-wrap items-center justify-between mt-4 gap-2">
-            <div className="flex flex-wrap gap-3">
-              {tags.map((tag) => (
-                <span
-                  key={tag.id}
-                  className="px-3 py-1 text-sm font-medium text-[#F719CC] bg-white/5 rounded hover:scale-105 transition-transform"
-                >
-                  {tag.name}
-                </span>
-              ))}
-            </div>
+          <div className="flex flex-wrap items-center gap-2 mt-4 max-w-full">
+            {tags.map((tag) => (
+              <span
+                key={tag.id}
+                className="px-3 py-1 text-sm font-medium text-[#F719CC] bg-white/5 rounded hover:scale-105 transition-transform"
+              >
+                {tag.name}
+              </span>
+            ))}
             <a
-              className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
+              className="inline-flex items-center gap-1 text-sm font-medium cursor-pointer hover-animation"
               href={href}
               target="_blank"
               rel="noopener noreferrer"
