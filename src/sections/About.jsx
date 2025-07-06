@@ -44,13 +44,13 @@ const About = () => {
         </div>
 
         {/* Grid 2 */}
-        <div className="grid-default-color grid-2 relative">
+        <div className="grid-default-color grid-2 relative flex justify-center items-center">
           <img
             src="assets/coding-pov.png"
             className="absolute z-0 opacity-80 brightness-75 scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
             alt="Coding POV"
           />
-          <div className="z-20 relative bg-black/40 backdrop-blur-sm p-4 rounded-xl mt-12 shadow-lg ring-1 ring-white/10">
+          <div className="z-20 relative bg-black/40 backdrop-blur-sm p-4 rounded-xl mt-12 shadow-lg ring-1 ring-white/10 max-w-[90vw] sm:max-w-md">
             <p className="headtext">This is Feda Almodhi</p>
             <p className="subtext">
               A creative developer and designer blending code, emotion, and experience.  
@@ -104,22 +104,22 @@ const About = () => {
         </div>
 
       {/* Grid 5 */}
-      <div className="grid-default-color grid-2 relative">
-          <img
-            src="assets/floating.jpeg"
-            className="absolute z-0 opacity-80 brightness-75 blur-xs object-cover  scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
-            alt="POV"
-          />
-          <div className="z-20 relative bg-black/40 backdrop-blur-sm p-4 rounded-xl mt-12 shadow-lg ring-1 ring-white/10">
+      <div className="grid-default-color grid-2 relative flex justify-center items-center">
+        <img
+          src="assets/floating.jpeg"
+          className="absolute z-0 opacity-80 brightness-75 blur-xs object-cover scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
+          alt="POV"
+        />
+        <div className="z-20 relative bg-black/40 backdrop-blur-sm p-4 rounded-xl mt-12 shadow-lg ring-1 ring-white/10 max-w-[90vw] sm:max-w-md">
           <p className="subtext">
-           I craft with intention, turning code  
+            I craft with intention, turning code  
             into connection, sound into sensation, and design into something you remember.  
             I blend emotion, memory, and motion to build interactive spaces that echo  
             real feelings.
           </p>
-          </div>
-          <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo"></div>
         </div>
+        <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo"></div>
+      </div>
       </div>
     </section>
   );
