@@ -47,18 +47,18 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Colorless – Narrative Horror Game (In Progress)",
+    title: "Lucid – Narrative Horror Game ",
     description:
-      "A psychological horror game that blends shaders, color mechanics, and narrative design to explore trauma and survival.",
+      "This psychological horror game traps players in an endless loop of surreal dreams. Players complete mysterious tasks, collect scattered clocks, and evade shadowy figures to reclaim their bodies and awaken. The game was published by my teammate Jana. You can view our individual contributions on our GitHub repository: https://github.com/JanaAlqarni-lab/Dreams",
     subDescription: [
-      "Designed an interactive 3D game environment in Godot with a story-driven focus on emotional and psychological manipulation.",
-      "Implemented mechanics like object interaction, shader-based color shifts, and conditional multiple endings.",
-      "Created original assets and modeled scenes in Blender, using raycasting for immersive gameplay.",
-      "Storyline explores themes of gaslighting, dissociation, and reclaiming agency through visual metaphors.",
+      "Designed an interactive 3D game environment in Unity, emphasizing psychological tension and surreal dreamscapes.",
+      "Implemented core gameplay mechanics including object interaction, clock collection, and dynamic shadow-figure evasion.",
+      "Crafted a branching narrative exploring themes of dissociation, identity, and reclaiming agency through surreal visual and gameplay metaphors.",
+      "Modeled and animated original assets in Blender, integrated with Godot to create immersive, looping dream sequences.",
     ],
-    href: "", 
+    href: "https://jana-04.itch.io/lucid", 
     logo: "",
-    image: " assets/projects/colorless.jpg", 
+    image: " public/assets/lucid.png", 
     tags: [
     { id: 1, name: "Godot Engine" },
     { id: 2, name: "Game Design" },
