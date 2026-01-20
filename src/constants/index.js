@@ -58,9 +58,9 @@ export const myProjects = [
     ],
     href: "https://jana-04.itch.io/lucid", 
     logo: "",
-    image: " public/assets/lucid.png", 
+    image: "assets/lucid.png", 
     tags: [
-    { id: 1, name: "Godot Engine" },
+    { id: 1, name: "Unity Engine" },
     { id: 2, name: "Game Design" },
     { id: 3, name: "Narrative Design" },
     { id: 4, name: "Psychological Horror" },
@@ -69,6 +69,31 @@ export const myProjects = [
     { id: 7, name: "Storytelling" },
   ],  
   },
+{
+  id: 4,
+  title: "ChartEx - FinTech Workflow & n8n Automation",
+  description:
+    "ChartEx is a FinTech project where I implement and manage automated workflows using n8n, handling separate development and production environments with Supabase databases. The system ensures safe feature development, structured migrations, and controlled deployments, enabling reliable and scalable operations. You can view the project on our GitHub repository: https://github.com/YourUsername/ChartEx",
+  subDescription: [
+    "Designed a structured branch strategy separating development (`dev`) and production (`main`) for safe feature deployment.",
+    "Configured and managed multiple Supabase environments with distinct credentials to isolate development and production data.",
+    "Implemented n8n workflows to automate critical operations, testing on dev environments before production deployment.",
+    "Established a workflow for database migrations, health checks, and CI/CD deployment to ensure reliable production updates.",
+    "Documented environment setup, schema changes, and safety procedures to streamline onboarding and maintain operational integrity."
+  ],
+  href: "https://chartex.sa",
+  logo: "",
+  image: "assets/chartex.jpg",
+  tags: [
+    { id: 1, name: "n8n Automation" },
+    { id: 2, name: "Supabase" },
+    { id: 3, name: "FinTech" },
+    { id: 4, name: "Workflow Management" },
+    { id: 5, name: "Development vs Production" },
+    { id: 6, name: "CI/CD" },
+    { id: 7, name: "Database Management" }
+  ],
+}
 ];
 
 export const mySocials = [
