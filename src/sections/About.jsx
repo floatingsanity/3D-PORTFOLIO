@@ -36,7 +36,7 @@ const About = () => {
         <div className="flex items-end justify-center grid-default-color grid-1 relative">
           <div className="w-full h-full rounded-xl border-[2px] border-indigo-500 shadow-[0_0_30px_#7f5af0] overflow-hidden">
             <img
-              src="assets/Feda.jpeg"
+              src="assets/Profshoot.jpg"
               className="w-full h-full object-cover sm:object-center"
               alt="Feda"
             />
@@ -94,7 +94,7 @@ const About = () => {
         <div className="grid-special-color grid-4 relative">
         <div className="z-10 w-[50%] z-20 relative bg-black/40 backdrop-blur-sm p-4 rounded-xl mt-12 shadow-lg ring-1 ring-white/10 ">
             <p className="subtext">
-        Based in The United States, and happily collaborating with clients around the globe.
+        Based in Saudi Arabia, and happily collaborating with clients around the globe.
             </p>
         </div>
 
